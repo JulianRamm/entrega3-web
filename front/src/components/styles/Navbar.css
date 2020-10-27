@@ -1,0 +1,41 @@
+#navigation-bar{
+    box-shadow: 0px 5px 7px 3px #00000017;
+    font-size: 1.3rem !important;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+}
+#donarNav{
+    font-weight: bold;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.5);
+}
+
+.nav-link,
+.nav-link,
+.nav-link:hover,
+.nav-link:active {
+  color: #212529;
+}
+
+.logout-icon{
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.user-name{
+    padding: 6px 12px;
+    margin: 0px 8px;
+    border-radius: 5px;
+    border: 2px solid black;
+    font-size: 16px;
+
+}
+
+.bold{
+    font-weight: bold !important;
+}
