@@ -1,0 +1,104 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Donation",
+		"_postman_id": "8cb26391-dfab-f228-80d4-544e42b9b09a",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "deleteDonation",
+			"request": {
+				"url": "localhost:3001/api/donations/5f97505d7e99c23dc880331b",
+				"method": "DELETE",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "addDonationRopa",
+			"request": {
+				"url": "localhost:3001/api/donations",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \n\t\"tipo\": \"ropa\", \n\t\"estado\":\"nueva\",\n\t\"genero\":\"hombre\",\n\t\"edad\":\"niño\",\n\t\"fundacion\":\"true\"\n\t\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Id",
+			"request": {
+				"url": "localhost:3001/api/donations/5f9754767e99c23dc880331c",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GET",
+			"request": {
+				"url": "localhost:3001/api/donations/",
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "addDonationComida",
+			"request": {
+				"url": "localhost:3001/api/donations",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"tipo\":\"comida\",\n\t\"edad\":\"adultos\",\n\t\"estado\":\"Lista para consumir\",\n\t\"fundacion\":true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "addDonationDinero",
+			"request": {
+				"url": "localhost:3001/api/donations",
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"tipo\": \"dinero\",\n\t\"cant\":\"50000\",\n\t\"mod\":\"online\",\n\t\"fundacion\":true\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
