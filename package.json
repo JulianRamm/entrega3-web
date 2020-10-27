@@ -2,8 +2,10 @@
   "name": "donarte",
   "version": "0.0.0",
   "private": true,
+  "engines": {
   "node": "12.16.1",
-  "npm": "6.14.8",
+  "npm": "6.14.8"
+  },
   "scripts": {
     "start": "nodemon ./bin/www",
     "dev": "concurrently --kill-others-on-fail \"npm run back\" \"npm run front\"",
